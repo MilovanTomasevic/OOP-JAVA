@@ -1,0 +1,28 @@
+================================================
+Objektno orijentisano programiranje - 4. sedmica
+================================================
+
+1. Za vezbu se mogu resavati neki od zadataka sa strukturama iz odeljka 3.4
+   zbirke za kurs Programiranje 1 koja je dostupna na adresi: 
+   http://www.programiranje1.matf.bg.ac.rs/2016/zbirka_bez_resenja.pdf
+   
+   NAPOMENE:
+   - strukturi u C-u odgovara klasa u Javi
+   - polja (podaci) u strukturi postaju atributi klase
+   - funkcije u C-u koje za ulazne podatke imaju vrednosti strukturnog tipa
+     ili vracaju vrednost strukturnog tipa postaju metodi koji su deo klase u Javi
+   - pored ovih metoda, neophodno je obezbediti i potrebne konstruktore, jer 
+     klasa mora da ima bar jedan konstruktor
+   - potrebno je definisati i metod toString() koji gradi i vraca 
+     string-reprezentaciju objekta klase
+     
+   - u posebnoj klasi (za testiranje) treba napraviti konkretne objekte i 
+     testirati ponasanje razlicitih metoda. 
+     
+     
+
+   
+  
+
+
+   

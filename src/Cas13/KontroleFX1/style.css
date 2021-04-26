@@ -1,0 +1,45 @@
+/* podrazumevani stil za dugme */
+
+.button {
+	 -fx-background-color: radial-gradient(radius 100%, white, skyblue);
+	 -fx-border-color: gray;
+	 -fx-border-style: solid outside;
+	 -fx-border-insets: -1.4;
+	 -fx-border-width: 0.1mm;
+	 -fx-border-radius: 6px;
+}
+
+.button:hover {
+	-fx-background-color:  -fx-outer-border, -fx-inner-border, -fx-body-color, radial-gradient(radius 100%, white, skyblue);
+	-fx-background-radius: 5px;
+	-fx-background-insets: -1.4, 0, 1, 2;
+}
+
+/* promenom selektovanog radio dugmeta, menjace se samo boja pozadine */
+
+.plavo {
+		 -fx-background-color: radial-gradient(radius 100%, white, blue);
+}
+
+.plavo:hover{
+	-fx-background-color:  -fx-outer-border, -fx-inner-border, -fx-body-color, radial-gradient(radius 100%, white, blue);	
+}
+
+
+
+.zeleno {
+		 -fx-background-color: radial-gradient(radius 100%, white, green);
+}
+
+.zeleno:hover{
+	-fx-background-color:  -fx-outer-border, -fx-inner-border, -fx-body-color, radial-gradient(radius 100%, white, green);	
+}
+
+
+.crveno {
+		 -fx-background-color: radial-gradient(radius 100%, white, red);
+}
+
+.crveno:hover{
+	-fx-background-color:  -fx-outer-border, -fx-inner-border, -fx-body-color, radial-gradient(radius 100%, white, red);	
+}

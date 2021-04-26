@@ -1,0 +1,25 @@
+REDOSLED PREGLEDA PRIMERA (po paketima):
+
+1. izuzeci	
+		a) TestRuntimeException
+		b) TestTryCatch
+		c) TestTryCatchPetlja
+		d) TestTryCatchPetlja2
+		e) StringUBroj
+		
+2. datoteke_citanje_nio
+		a) ScannerDatoteka.java
+		b) ScannerString_delimiter_nextLine.java
+		
+4. datoteke_citanje_pisanje_nio
+		a) TestCitanjePisanje1.java
+		b) TestCitanjePisanje2.java
+		c) TestCitanjePisanje3.java
+		d) TestCitanjePisanje4.java
+		e) TestCitanjePisanje5.java
+		f) TestCitanjePisanjeMaleDatoteke.java
+		
+
+
+
+

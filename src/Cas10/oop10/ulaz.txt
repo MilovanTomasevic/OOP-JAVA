@@ -1,0 +1,4 @@
+objektno orijentisano programiranje
+JAG2, 2 casa vezbi
+rad sa kolekcijama
+ArrayList, LinkedList

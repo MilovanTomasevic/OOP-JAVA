@@ -1,0 +1,41 @@
+Zadatak (ispit iz januara 2015)
+(malo izmenjen i prilagodjen da ne sadrzi gui)
+
+Sadrzaj datoteke "prijave.txt" cine podaci o broju prijavljenih studenata 
+za predmete po datim ispitnim rokovima. U svakoj liniji datoteke sadrzan
+je ulaz oblika: 
+godina prijave: sifra predmeta, broj prijavljenih studenata, ispitni rok
+Moze se smatrati da je datoteka u ispravnom formatu.
+
+Napisati aplikaciju u kojoj se najpre citaju pojedinacne linije datoteke
+i izdvojeni podaci o prijavama se cuvaju u listi. 
+Za svaku pojedinacnu prijavu na osnovu procitanih podataka iz jednog reda
+datoteke treba da se napravi objekat pomocne klase Prijava. 
+Podatak o ispitnom roku treba da bude odgovarajuceg tipa enumeracije Rok
+sa zadatim dozvoljenim vrednostima za nazive ispitnih rokova 
+{jan1, jan2, jun1, jun2, sep}. 
+
+Prikazati na standardnom izlazu string-reprezentaciju popunjene liste prijava
+(svaka prijava se prikazuje u zasebnom redu). 
+
+Potom sa ulaza treba da se unese skolska godina (ako se unese '0', znaci 
+da godina nije od znacaja u racunanju statistika).
+
+Za svaki predmet iz liste treba da se sracuna ukupan broj 
+prijavljenih studenata i to:
+- ako je zadata skolska godina, ukupan broj prijavljenih studenata samo 
+  za ispitne rokove iz te godine
+- ako nije zadata skolska godina, onda za sve ispitne rokove u kojima je 
+  bilo prijava tog predmeta
+  
+Na standardni izlaz treba da se ispise spisak sifara predmeta sa 
+izracunatim ukupnim brojem prijavljenih studena u formatu
+
+sifra predmeta : broj prijava
+
+sortiran opadajuce prema ukupnom broju prijava. 
+
+Ako za unetu godinu nema podataka o prijavljenim ispitima, treba da se 
+ispise poruka: "Nema prijava iz trazene godine! Pokusajte sa drugom godinom!"
+
+

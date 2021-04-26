@@ -1,0 +1,21 @@
+Napisati aplikaciju u kojoj se sa standardnog ulaza zadaju dva velika cela broja.
+Veliki celi brojevi su brojevi koji mogu biti pozitivni ili negativni i mogu
+imati neograničen broj cifara. 
+Potom se na standardni izlaz ispisuju uneti brojevi i računa i ispisuje njihov zbir. 
+
+Za predstavljanje velikih celih brojeva napisati zasebnu klasu VelikiCeoBroj 
+koja kao podatke članove sadrži znak broja i listu njegovih cifara. 
+Napisati i odgovarajuće konstruktore i metod toString() za prikaz velikog celog broja.
+Napisati i metod:
+
+	public static int absVeci(VelikiCeoBroj vcb1, VelikiCeoBroj vcb2);
+
+koji vraća 1 ako je vcb1 po apsolutnoj vrednosti veći od vcb2, -1 ako je vcb1 po
+apsolutnoj vrednosti manji od vcb2 i 0 ako su vcb1 i vcb2 jednaki po apsolutnoj 
+vrednosti. 
+Napisati i metod:
+	
+	public static VelikiCeoBroj saberi(VelikiCeoBroj vcb1, VelikiCeoBroj vcb2);
+
+koji kao rezultat vraća veliki ceo broj koji je dobijen sabiranjem dva velika cela 
+broja vcb1 i vcb2. 

@@ -1,0 +1,21 @@
+REDOSLED PREGLEDA PRIMERA (po paketima):
+
+1. testLinkedList	
+	- ilustruje prostu upotrebu metoda klase java.util.LinkedList
+
+2. linkedList:
+	- ilustracija upotrebe dvostruko povezane liste na primeru poligone linije:
+	  Tacka, PolyLine, TestPolyLine
+	  
+3. testHashMap
+	- ilustruje prostu upotrebu metoda klase java.util.HashMap
+
+4. imenik
+	- ilustracija upotrebe hes mape na primeru imenika 
+	  (kljucevi u mapi su objekti klase Osoba, a njima pridruzene vrednosti objekti klase Broj)
+
+5. imenik2
+	- ilustruje upotrebu komparatora i interfejsa Comparator<> za drugaciji nacin sortoranja
+
+6. stack
+	- ilustruje upotrebu metoda klase java.util.Stack na primeru karata za igru

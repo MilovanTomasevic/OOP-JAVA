@@ -1,0 +1,21 @@
+Sadržaj datoteke "brojevi.txt" čine proizvoljno veliki (pozitivni ili negativni) celi brojevi. 
+Svaki broj je zapisan u posebnom redu datoteke. Smatrati da je datoteka u ispravnom formatu. 
+
+Napisati aplikaciju u kojoj se najpre čitaju pojedinačne linije datoteke i 
+podaci o velikim celim brojevima se čuvaju u listi, a potom se vrše sledeće
+operacije nad velikim celim brojevima:
+1. ispisuju se na standardni izlaz u zasebnim redovima
+2. sortiraju se i ponovo ispisuju kao u stavki 1
+3. množe se jednocifrenim brojem i ponovo ispisuju kao u stavki 1;
+   broj se unosi sa standardnog ulaza uz proveru da li je jednocifren (od korisnika se
+   traži da ponovi unos ako broj nije jednocifren)
+
+Za predstavljanje velikih celih brojeva napisati zasebnu klasu VelikiCeoBroj 
+koja kao podatke članove sadrži znak broja i listu njegovih cifara. 
+Napisati i odgovarajuće konstruktore i metod toString() za prikaz velikog celog broja, kao i 
+metode neophodne za uspešno sortiranje kolekcije velikih celih brojeva i metod:
+	
+	public VelikiCeoBroj mnozenjeJednocifrenimBrojem(int broj);
+
+koji kao rezultat vraća veliki ceo broj koji je dobijen množenjem velikog celog broja vcb 
+jednocifrenim brojem broj.

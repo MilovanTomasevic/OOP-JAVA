@@ -1,0 +1,32 @@
+Primer je modifikovana verzija ispitnog zadatka "Paskalov trougao" iz juna 2010.
+ 
+Inicijalno je dugme "Popuni Paskalov trougao" onemoguceno.
+
+Korisnik u tekstualno polje unosi broj redova Paskalovog trougla 
+koji treba da se napravi. 
+
+Dodato je dugme "Napravi trougao", cijim pritiskom se pravi i 
+prikazuje (trougaona) matrica dugmadi (Button).
+
+Ako korisnik ne unese broj redova u tekstualno polje, 
+podrazumevano se prave, npr 3 reda. 
+
+Svaki red dugmadi je organizovan u FlowPane, a svi redovi u VBox. 
+VBox opciono moze da ima okvir odredjene (plave) boje iznad kojeg 
+stoji labela "Paskalov trougao".
+Nakon toga dugme "Napravi trougao" postaje onemoguceno, a 
+tekstualno polje ne moze da se edituje, dok se omogucuje klik na 
+dugme za popunjavanje trougla. 
+
+Klikom na dugme "Popuni Paskalov trougao" racunaju se binomni 
+koeficijenti i prikazuju na dugmadima u matrici.
+Dugme za popunjavanje postaje onemoguceno, a za pravljenje
+Paskalovog trougla se omogucuje, kao i tekstualno polje, koje 
+ponovo moze da se edituje (cime se daje mogucnost da se pravi 
+novi Paskalov trougao).
+
+Kada su dugmad popunjena binomnim koeficijentima, klik na svako 
+pojedinacno dugme menja tekst tako da na dugmetu pise
+string oblika "C(i, j)", tj. o kom binomnom koeficijentu se radi.
+
+

@@ -1,0 +1,44 @@
+===========================
+OPIS PRIMERA: Magicni sesir
+===========================
+
+Primer ilustruje definisanje sopstvenog tipa izuzetaka: 
+                NemaDuskoException.
+
+Svaki magicni sesir ima svoje ime,
+a u sesiru se moze nalaziti slucajan broj zeceva
+kojih moze biti najmanje 1, a najvise 5.
+
+Svaki zec u sesiru ima svoje (jedinstveno) ime koje se sastoji iz dva dela:
+osnovnog imena, koje moze biti: "Dusko", "Zeka", "Peka" ili "Djura"
+i rednog broja. 
+Prvi napravljeni Dusko imace ime "Dusko1", drugi "Dusko2" itd.
+Prvi napravljeni Zeka imace ime "Zeka1", drugi "Zeka2" itd.
+(redni brojevi za jedno ime nezavisni su od rednih brojeva za ostala imena).
+
+**************************************************************************************
+
+Zelimo da u svakom sesiru postoji bar jedan zec Dusko.
+Ako Duska nema, ne zelimo takav sesir :)
+U slucaju da u konstruktoru klase MagicniSesir nije kreiran nijedan zec Dusko,
+konstruktor izbacuje izuzetak tipa NemaDuskoException.
+
+--------------------- 
+Klasa NemaDuskoException sadrzi samo neophodni minimum da bi bila korisnicki
+definisana klasa izuzetaka:
+- podrazumevani i konstruktor koji ocekuje jedan String (sa porukom o gresci)
+Izvedena je iz klase Exception kao bazne, pa se radi o izuzecima koji se proveravaju.
+Stoga postoji throws klauza u zaglavlju konstruktora klase MagicniSesir,
+a u test-klasi pozivi konstruktora ogradjeni su try-catch blokom koji rukuje
+nasim tipom izuzetaka.
+---------------------
+
+========================
+REDOSLED PREGLEDA KLASA:
+========================
+
+1. Zec.java
+2. MagicniSesir.java
+3. NemaDuskoException.java
+4. TestMagicniSesir.java
+
